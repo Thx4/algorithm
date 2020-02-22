@@ -15,7 +15,7 @@ public class InorderTravelsal {
         }
     }
 
-    public List<Integer> inoderTravelsal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         helper(root,res);
         return res;
